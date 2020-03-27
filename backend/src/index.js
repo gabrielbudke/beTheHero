@@ -1,4 +1,5 @@
 const express = require('express');
+const routes = require('./routes');
 
 const app = express(); 
 
@@ -33,16 +34,11 @@ app.use(express.json());
  * Request Body: corpo da requisição utilizado para criar ou alterar recursos 
  */
 
-app.post('/users', (request, response) => {
-    
-    const body = request.body;
+/**
+ * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+ * NoSQL: MongoDB, CouchDB, etc
+ */
 
-    console.log(body);
-
-    return response.json({ 
-        evento: "Semana Omnistack 11.0",
-        aluno: "Duane Nadia"
-    });
-});
+app.use(routes);
 
 app.listen(3333);
