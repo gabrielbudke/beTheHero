@@ -49,7 +49,6 @@ module.exports = {
         const { id } = request.params;
         const ong_id = request.headers.authorization;
 
-        console.log(id);
         const incidents = await connection('incidents')
             .where('id', id)
             .select('ong_id')
