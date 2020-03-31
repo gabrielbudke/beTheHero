@@ -1,7 +1,6 @@
 tasks:
   - before: cd backend
   - command: yarn init
-    name: Static Server
   - openMode: split-right
     command: echo "SplitTerminal"
   - openIn: left
