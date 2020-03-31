@@ -3,6 +3,9 @@ tasks:
     command: yarn
   - openMode: split-right
     before: cd frontend
-    command: echo "SplitTerminal"
+    command: yarn"
+  - openMode: split-right
+    before: cd mobile
+
 image:
   file: .gitpod.Dockerfile
