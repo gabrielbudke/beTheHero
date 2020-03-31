@@ -1,11 +1,6 @@
 tasks:
   - before: cd backend
-    command: yarn
-  - openMode: split-right
-    before: cd frontend
-    command: yarn
-  - openMode: split-right
-    before: cd mobile
-    command: echo "Mobile Terminal"
+    init: yarn
+    command: cd ..
 image:
   file: .gitpod.Dockerfile
