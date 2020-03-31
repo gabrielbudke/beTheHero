@@ -1,6 +1,8 @@
 tasks:
   - before: cd backend
     init: echo "Replace me with a build script for the project."
+    openMode: split-right
+    command: echo "Novo terminal aberto"
     command: echo "Replace me with something that should run on every start, or just
       remove me entirely."
 image:
