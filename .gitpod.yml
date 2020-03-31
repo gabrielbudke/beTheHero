@@ -9,3 +9,4 @@ tasks:
   - openMode: split-right
     before: cd mobile
     init: yarn
+    command: expo start --tunnel
