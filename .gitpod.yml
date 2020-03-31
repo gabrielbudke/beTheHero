@@ -1,6 +1,6 @@
 tasks:
   - before: cd backend
-    command: yarn init
+    command: yarn
   - openMode: split-right
     before: cd frontend
     command: echo "SplitTerminal"
