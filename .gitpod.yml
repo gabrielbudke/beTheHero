@@ -1,7 +1,8 @@
 tasks:
   - before: cd backend
     init: yarn
-  - before: cd frontend
+  - openMode: split-right
+    before: cd frontend
     init: yarn
 image:
   file: .gitpod.Dockerfile
