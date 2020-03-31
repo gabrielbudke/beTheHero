@@ -1,12 +1,5 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - before: cd backend
+  - before: cd frontend
     init: yarn
-  - openMode: split-right
-    before: cd frontend
-    init: yarn
-  - openMode: split-right
-    before: cd mobile
-    init: yarn
-    command: expo start --tunnel
