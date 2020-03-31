@@ -1,10 +1,8 @@
 tasks:
   - before: cd backend
-  - init: yarn init
+    init: yarn init
   - openMode: split-right
     before: cd frontend
     command: echo "SplitTerminal"
-  - openIn: left
-    command: echo "LeftPanelTerminal"
 image:
   file: .gitpod.Dockerfile
