@@ -3,6 +3,6 @@ image:
 tasks:
   - before: cd backend
     init: yarn
-  - openMode: split-right
+    openMode: split-right
     before: cd frontend
     init: yarn
