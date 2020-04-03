@@ -6,3 +6,6 @@ tasks:
     openMode: split-right
     before: cd frontend
     init: yarn
+    openMode: split-right
+    before: cd mobile
+    init: yarn
