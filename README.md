@@ -22,3 +22,6 @@ npm start || yarn start
 cd mobile
 npm install || yarn 
 ```
+
+## Author
+Gabriel Budke de Sousa - gabrielbudke@hotmail.com
